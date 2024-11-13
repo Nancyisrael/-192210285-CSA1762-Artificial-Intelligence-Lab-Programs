@@ -1,0 +1,10 @@
+female(nancy).
+female(mercy).
+male(john).
+male(james).
+parent(blessy,isaac).
+parent(gracy,jacob).
+parent(joicy,moses).
+parent(nissy,joseph).
+mother(X,Y):-parent(X,Y),female(X).
+father(X,Y):-parent(X,Y),male(X).
